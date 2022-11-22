@@ -26,6 +26,18 @@
         a:visited {
             color: orangered;
         }
+        li:first-child {
+            background-color: burlywood;
+        }
+        li:last-child {
+            background-color: blueviolet;
+        }
+        li:nth-child(2n+1) {
+            color: rgb(191, 32, 32);
+        }
+        li:nth-child(2n) {
+            color: blue;
+        }
     </style>
 </head>
 <body>
@@ -33,7 +45,20 @@
     <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">Google Web site</a>
     <a href="http://www.https://web.programming-hero.com" target="_blank" rel="noopener noreferrer">Programming Hero Web site</a>
 
+    <ul>
+        <li>My awesome items - 1</li>
+        <li>My awesome items - 2</li>
+        <li>My awesome items - 3</li>
+        <li>My awesome items - 4</li>
+        <li>My awesome items - 5</li>
+        <li>My awesome items - 6</li>
+        <li>My awesome items - 7</li>
+        <li>My awesome items - 8</li>
+        <li>My awesome items - 9</li>
+        <li>My awesome items - 10</li>
+    </ul>
+
     <!-- CSS pseudo-classes are used to add styles to selectors, but only when those selectors meet certain conditions. A pseudo class is expressed by adding a colon (:) after a selector in CSS.
-    Ex - :link, :visited, :active, :hover -->
+    Ex - :link, :visited, :active, :hover, :first-child, :last-child, :nth-child() -->
 </body>
 </html>
