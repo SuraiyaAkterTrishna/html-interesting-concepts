@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .pond {
+            width: 200px;
+        }
+        .dummy {
+            width: 200px;
+            height: 200px;
+            background-color: rgb(128, 248, 236);
+        }
+        /* #ring {
+            position: absolute;
+            top: 15px;
+            left: 40px;
+        }
+        .swimming {
+            position: relative;
+        } */
+        /* #ring {
+            position: fixed;
+            top: 100px;
+        } */
+        .swimming {
+            position: relative;
+        } 
+        #ring {
+            position: absolute;
+            top: 0;
+            z-index: 1;
+        }
+        #water {
+            position: relative;
+            top: -80px;
+        }
+        #boy {
+            position: relative;
+            top: -35px;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is the code for understand the CSS Position Property</h1>
+    <section class="swimming">
+        <div id="boy" class="pond">
+            <img src="./images/boy.svg" alt="boy">
+        </div>
+        <div id="ring" class="pond">
+            <img src="./images/ring.svg" alt="ring">
+        </div>
+        <div id="water" class="pond">
+            <img src="./images/water.svg" alt="water">
+        </div>
+        <div class="dummy">dummy</div>
+        <div class="dummy">dummy</div>
+        <div class="dummy">dummy</div>
+        <div class="dummy">dummy</div>
+        <div class="dummy">dummy</div>
+        <div class="dummy">dummy</div>
+        <div class="dummy">dummy</div>
+        <div class="dummy">dummy</div>
+        <div class="dummy">dummy</div>
+        <div class="dummy">dummy</div>
+        <div class="dummy">dummy</div>
+        <div class="dummy">dummy</div>
+        <div class="dummy">dummy</div>
+    </section>
+    <section class="other">
+        <h1>This is another section</h1>
+        <div class="dummy">dummy</div>
+        <div class="dummy">dummy</div>
+        <div class="dummy">dummy</div>
+        <div class="dummy">dummy</div>
+        <div class="dummy">dummy</div>
+        <div class="dummy">dummy</div>
+        <div class="dummy">dummy</div>
+        <div class="dummy">dummy</div>
+        <div class="dummy">dummy</div>
+        <div class="dummy">dummy</div>
+        <div class="dummy">dummy</div>
+        <div class="dummy">dummy</div>
+        <div class="dummy">dummy</div>
+    </section>
+
+    <!-- CSS position property: absolute, relative, fixed, sticky, z-index -->
+</body>
+</html>
